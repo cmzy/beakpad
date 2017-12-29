@@ -92,6 +92,7 @@ LOCAL_SRC_FILES := \
     src/common/linux/memory_mapped_file.cc \
     src/common/linux/safe_readlink.cc
 
+LOCAL_CPPFLAGS += -std=c++11
 LOCAL_C_INCLUDES        := $(LOCAL_PATH)/src/common/android/include \
                            $(LOCAL_PATH)/src
 
